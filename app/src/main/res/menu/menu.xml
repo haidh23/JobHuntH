@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/fragment_home"
+            android:title="@string/JobSeekers_Home" />
+        <item
+            android:id="@+id/fragment_info"
+            android:title="@string/en_user_info" />
+        <item
+            android:id="@+id/fragment_profile"
+            android:title="@string/en_user_profile" />
+        <item
+            android:id="@+id/follow_cv"
+            android:title="@string/en_follow_cv" />
+        <item
+            android:id="@+id/fragment_Setting"
+            android:title="@string/setting" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/fragment_change_password"
+                android:title="ChangePassword" />
+            <item
+                android:id="@+id/fragment_change_mode"
+                android:title="Chế độ tuyển dụng" />
+            <item
+                android:id="@+id/fragment_gioithieu"
+                android:title="Giới thiệu" />
+            <item
+                android:id="@+id/logout"
+                android:title="Thoát" />
+        </menu>
+    </item>
+</menu>

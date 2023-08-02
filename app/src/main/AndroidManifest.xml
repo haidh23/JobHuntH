@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logoapp_bg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoapp_bg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".jobseekers.activity.FollowCVActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Login.RegisterUserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".jobseekers.activity.SearchJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jobseekers.ApplyActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Employers.ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".Employers.Employers_EditJob"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Login.forgetpassword"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Register_Login.RegisterEmployerInfo"
+            android:exported="true" />
+        <activity
+            android:name=".Register_Login.RegisterInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Employers.AdapterItemView.DetailJobsAd"
+            android:exported="false" />
+        <activity
+            android:name=".Check_Login.check_Login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".jobseekers.MainScreen"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".UploadProfile.UploadProfile"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Employers.Employers_AddJobs"
+            android:exported="false" />
+        <activity
+            android:name=".Employers.Employers_Activity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Register_Login.Start"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Register_Login.Login"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Register_Login.Register"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">JobHuntHTH</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone:</string>
+    <string name="Save">Save</string>
+    <string name="clicktoRegister">No Account! <u>Click to Register</u></string>
+    <string name="ImageCV">Upload CV</string>
+    <string name="ImageAvatar">Upload Avatar</string>
+    <string name="ImageBackGround">Upload BackGround</string>
+    <string name="Address">Address:</string>
+    <string name="Name">Name</string>
+    <string name="View_Bio">View your Bio</string>
+    <string name="Password">Password</string>
+    <string name="USD">USD</string>
+    <string name="VND">VNĐ</string>
+    <string name="Distance">Distance:</string>
+    <string name="Over">Over</string>
+    <string name="About">About</string>
+    <string name="Below">Below</string>
+    <string name="Kilometer">km</string>
+    <string name="Mile">mi</string>
+    <string name="PasswordAgain">Password Again</string>
+    <string name="ForgetPassword">Forget the Password</string>
+    <string name="txt_JobTitle">Title</string>
+    <string name="edt_JobTitle">Input Title</string>
+    <string name="txt_JobDesc">Jobs Description</string>
+    <string name="edt_JobDesc">Input Jobs Description</string>
+    <string name="txt_JobReq">Jobs Requirement</string>
+    <string name="edt_JobReq">Input Jobs Requirement</string>
+    <string name="txt_JobPerk">Benefits</string>
+    <string name="edt_JobPerk">Input Benefits</string>
+    <string name="txt_JobType">Type of Jobs</string>
+    <string name="txt_JobProfession">Profession</string>
+    <string name="btn_AddJob">Add Jobs</string>
+    <string name="sent">Send</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Forget_password">Forget your password?</string>
+    <string name="Forget_password1">Click Here</string>
+    <string name="forgetpassword">Forget Your Password?</string>
+    <string name="forgetpasswordtext">Please enter your Email to get the new password</string>
+    <string-array name="spn_JobType">
+        <item>Full Time</item>
+        <item>Part Time</item>
+    </string-array>
+    <string-array name="spn_JobProfession">
+        <item>Công nghệ thông tin</item>
+        <item>Marketing</item>
+        <item>Kế toán</item>
+        <item>Bảo hiểm</item>
+        <item>Bác sĩ</item>
+    </string-array>
+    <string-array name="spn_vietnam_provinces">
+        <item>Hà Nội</item>
+        <item>Hồ Chí Minh</item>
+        <item>Đà Nẵng</item>
+        <item>Hải Phòng</item>
+        <item>Cần Thơ</item>
+        <item>An Giang</item>
+        <item>Bà Rịa - Vũng Tàu</item>
+        <item>Bắc Giang</item>
+        <item>Bắc Kạn</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cao Bằng</item>
+        <item>Đắk Lắk</item>
+        <item>Đắk Nông</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hậu Giang</item>
+        <item>Hòa Bình</item>
+        <item>Hưng Yên</item>
+        <item>Khánh Hòa</item>
+        <item>Kiên Giang</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Tiền Giang</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+        <item>Phú Yên</item>
+    </string-array>
+    <string-array name="spn_education_levels">
+        <item>Không yêu cầu</item>
+        <item>Tốt nghiệp THPT</item>
+        <item>Tốt nghiệp trung cấp</item>
+        <item>Tốt nghiệp Cao đẳng</item>
+        <item>Tốt nghiệp đại học</item>
+        <item>Trên đại học</item>
+    </string-array>
+    <string-array name="skill_array">
+        <item>Kỹ năng giao tiếp</item>
+        <item>Kỹ năng viết</item>
+        <item>Kỹ năng thuyết trình</item>
+        <item>Kỹ năng giải quyết vấn đề</item>
+        <item>Kỹ năng lắng nghe</item>
+        <item>Kỹ năng chăm sóc trẻ em</item>
+        <item>Kỹ năng đàm phán</item>
+        <item>Kỹ năng làm việc nhóm</item>
+        <item>Kỹ năng quản lý thời gian</item>
+        <item>Kỹ năng đặt mục tiêu</item>
+        <item>Kỹ năng quan sát</item>
+        <item>Kỹ năng lên kế hoạch</item>
+        <item>Khả năng học hỏi</item>
+        <item>Khả năng thích nghi</item>
+        <item>Khả năng sáng tạo, tư duy</item>
+        <item>Khả năng lắng nghe</item>
+        <item>Khác</item>
+    </string-array>
+    <string-array name="application_sort">
+        <item>New Date</item>
+        <item>Old Date</item>
+        <item>Salary</item>
+    </string-array>
+    <string name="Profile">Profile</string>
+    <string name="Achievement">Achievement</string>
+    <string name="age">Age:</string>
+    <string name="educate">Educate</string>
+    <string name="career_find">Professions you are interested in?</string>
+    <string name="Customer_care">Customer care</string>
+    <string name="Recomend">Recommend for you</string>
+    <string name="more"> >></string>
+    <string name="Marketing">Marketing</string>
+    <string name="ViewCV">CV</string>
+    <string name="github">View GitHub</string>
+    <string name="education">Education:</string>
+    <string name="Information_Update">Information Update</string>
+    <string name="university">University:</string>
+    <string name="majors">Majors</string>
+    <string name="search">Search</string>
+    <string name="view">View</string>
+    <string name="Apply">Apply</string>
+    <string name="UnApply">UnApply</string>
+    <string name="jobsearch">Job search</string>
+    <string name="setting">Setting</string>
+    <string name="en_follow_cv">Follow CV</string>
+    <string name="Cv_send_status">Application Status</string>
+    <string name="favourtive_recruiter">Favour Recruiter</string>
+    <string name="JobSeekers_Home">Home</string>
+    <string name="Online_Jobs">Marketing Jobs</string>
+    <string name="doctor_Jobs">Doctor Jobs</string>
+    <string name="Insurance_Jobs">Insurance Jobs</string>
+    <string name="Programming_Jobs">Programming Jobs</string>
+    <string name="Sale_jobs">Sale Jobs</string>
+    <string name="Contact">Contact</string>
+    <string name="recruiters">recruiters</string>
+    <string name="search_jobsfinder">Job search, recruiters</string>
+    <string name="Years_exp">years of experience:</string>
+    <string name="Information_details">Information details</string>
+    <string name="Information_Contact">Information Contacts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_employer">Register Employer</string>
+    <string name="Edit_employer">Edit Employer</string>
+    <string name="company_email">Company Email</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_phone_number">Company Phone Number</string>
+    <string name="company_address">Company Address</string>
+    <string name="select_company_image">Select Company Image</string>
+    <string name="log_out">Log Out</string>
+    <string name="account">Account</string>
+    <string name="home">Home</string>
+    <string name="edit_account">Edit account</string>
+    <string name="min_salary">Minimum salary</string>
+    <string name="max_salary">Maximum salary</string>
+    <string name="txt_number_of_recruiter">Number of Recruiter</string>
+    <string name="txt_Address">Address</string>
+    <string name="btn_editJob">Edit Job</string>
+    <string name="company_size">Company Size</string>
+    <string name="company_profession">Company Industries</string>
+    <string name="company_web">Company Website</string>
+    <string name="company_description">Mô tả công ty</string>
+    <string name="brith_day">Ngày sinh</string>
+    <string name="user_infor">Thông tin cá nhân</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="email">Đ/c email</string>
+    <string name="not_infor">Chưa có thông tin</string>
+    <string name="gender">Giới tính</string>
+    <string name="others">Khác</string>
+    <string name="address_default">Địa chỉ mặc định</string>
+    <string name="en_changePassword">Change Password</string>
+    <string name="en_education_levels">Education levels</string>
+    <string name="en_skip">Skip</string>
+    <string name="en_user_info">User Info</string>
+    <string name="en_user_profile">User Profile</string>
+    <string name="search_job">Nghề nghiệp</string>
+    <string name="search_job_location">Địa điểm</string>
+    <string name="en_accept">Accept</string>
+    <string name="en_refuse">Refuse</string>
+    <string name="en_watch_cv">Watch CV</string>
+
+</resources>
